@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/result.html" method="post" >
+  <!--INPUT BOXES-->
+                 First name:<br>
+  <input type="text" name="firstname" value="Enter First Name">
+  <br>
+  <br>
+                 Last name:<br>
+  <input type="text" name="lastname" value="Enter Surname">
+  <br><br>
+
+  <!--CHECK BOXES-->
+                Gender : <br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+
+  <!--DROPDOWN LIST-->
+                Educational Qualification:
+  <select name="Qualification">
+    <option value="SSC">SSC</option>
+    <option value="Matriculation">Matriculation</option>
+    <option value="Undergraduate">Undergraduate</option>
+    <option value="Graduate">Graduate</option>
+    <option value="P G">P G</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called result.html.</p>
+
+</body>
+</html>
